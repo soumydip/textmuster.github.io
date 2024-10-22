@@ -63,6 +63,12 @@ You can view the live demo of the Text Utility application at the following link
 
 [Text Utility Live Demo](https://soumydip.github.io/textmuster.github.io/)
 
+## Get the Source Code
+
+You can download the source code for this project from the GitHub repository:
+
+[Text Utility GitHub Repository](https://github.com/soumydip/textmuster)  <!-- এখানে আপনার প্রকৃত GitHub লিঙ্ক দিন -->
+
 ### Code Splitting
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
