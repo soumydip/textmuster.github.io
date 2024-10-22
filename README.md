@@ -67,7 +67,7 @@ You can view the live demo of the Text Utility application at the following link
 
 You can download the source code for this project from the GitHub repository:
 
-[Text Utility GitHub Repository](https://github.com/soumydip/textmuster)  <!-- এখানে আপনার প্রকৃত GitHub লিঙ্ক দিন -->
+[Text Utility GitHub Repository](https://github.com/soumydip/textmuster.github.io)
 
 ### Code Splitting
 
