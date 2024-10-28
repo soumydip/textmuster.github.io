@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/textmuster.github.io/static/css/main.37f68bb1.css",
-    "main.js": "/textmuster.github.io/static/js/main.38c871c7.js",
+    "main.css": "/textmuster.github.io/static/css/main.d504f48a.css",
+    "main.js": "/textmuster.github.io/static/js/main.5a0ca0a6.js",
     "static/js/453.34ec9d87.chunk.js": "/textmuster.github.io/static/js/453.34ec9d87.chunk.js",
     "index.html": "/textmuster.github.io/index.html",
-    "main.37f68bb1.css.map": "/textmuster.github.io/static/css/main.37f68bb1.css.map",
-    "main.38c871c7.js.map": "/textmuster.github.io/static/js/main.38c871c7.js.map",
+    "main.d504f48a.css.map": "/textmuster.github.io/static/css/main.d504f48a.css.map",
+    "main.5a0ca0a6.js.map": "/textmuster.github.io/static/js/main.5a0ca0a6.js.map",
     "453.34ec9d87.chunk.js.map": "/textmuster.github.io/static/js/453.34ec9d87.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37f68bb1.css",
-    "static/js/main.38c871c7.js"
+    "static/css/main.d504f48a.css",
+    "static/js/main.5a0ca0a6.js"
   ]
 }
