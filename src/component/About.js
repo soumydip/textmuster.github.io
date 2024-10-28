@@ -1,33 +1,116 @@
-import React from 'react'
+import React from "react";
+import "./About.css";
 
-export default function About() {
+const About = () => {
   return (
-    <div>
-      <p>
-        
-Brand
-License
-Translations
-Migration
-About
-Learn more about the team maintaining Bootstrap, how and why the project started, and how to get involved.
+    <div className="container mt-5 about-container">
+      <div className="row text-center mb-4">
+        <div className="col">
+          <h1 className="display-4 fw-bold">About Me</h1>
+          <p className="lead about-description">
+            I am a passionate developer skilled in HTML, CSS, JavaScript, React,
+            and the MERN stack. I love building web applications that enhance
+            user experience and creativity.
+          </p>
+        </div>
+      </div>
 
-ads via CarbonDesign and Development tips in your inbox. Every weekday.
-ads via Carbon
-Team 
-Bootstrap is maintained by a small team of developers on GitHub. We’re actively looking to grow this team and would love to hear from you if you’re excited about CSS at scale, writing and maintaining vanilla JavaScript plugins, and improving build tooling processes for frontend code.
+      <div className="row mb-5">
+        <div className="col">
+          <h2 className="text-center mb-4">Key Features of My Application</h2>
+          <ul className="list-unstyled features-list">
+            <li className="mb-3">
+              <i className="fas fa-text-height feature-icon"></i>{" "}
+              <strong>Text Transformation:</strong> Uppercase, lowercase, and
+              capitalized text options.
+            </li>
+            <li className="mb-3">
+              <i className="fas fa-copy feature-icon"></i>{" "}
+              <strong>Copy & Download:</strong> Quickly copy text to the
+              clipboard or download it as a file.
+            </li>
+            <li className="mb-3">
+              <i className="fas fa-volume-up feature-icon"></i>{" "}
+              <strong>Text-to-Speech:</strong> Listen to text with live word
+              tracking.
+            </li>
+            <li className="mb-3">
+              <i className="fas fa-eraser feature-icon"></i>{" "}
+              <strong>Space Management:</strong> Remove extra spaces for cleaner
+              text.
+            </li>
+            <li className="mb-3">
+              <i className="fas fa-chart-bar feature-icon"></i>{" "}
+              <strong>Word & Character Count:</strong> Get word count, character
+              count, and reading time.
+            </li>
+            <li className="mb-3">
+              <i className="fas fa-eye feature-icon"></i>{" "}
+              <strong>Preview & Edit:</strong> See a live preview of text
+              changes in real-time.
+            </li>
+            <li className="mb-3">
+              <i className="fas fa-trash feature-icon"></i>{" "}
+              <strong>Clear Text:</strong> Clear all input with a single click.
+            </li>
+          </ul>
+        </div>
+      </div>
 
-History 
-Originally created by a designer and a developer at Twitter, Bootstrap has become one of the most popular front-end frameworks and open source projects in the world.
+      <div className="row text-center mb-5">
+        <div className="col">
+          <h3 className="fw-bold">Contact Me</h3>
+          <p>For questions or collaboration, feel free to reach out!</p>
+          <p>
+            <i className="fas fa-envelope"></i> Email:{" "}
+            <a href="mailto:xyz@gmail.com">xyz@gmail.com</a>
+          </p>
+          <p>
+            <i className="fas fa-phone"></i> Phone: +123-456-7890
+          </p>
+        </div>
+      </div>
 
-Bootstrap was created at Twitter in mid-2010 by @mdo and @fat. Prior to being an open-sourced framework, Bootstrap was known as Twitter Blueprint. A few months into development, Twitter held its first Hack Week and the project exploded as developers of all skill levels jumped in without any external guidance. It served as the style guide for internal tools development at the company for over a year before its public release, and continues to do so today.
-
-Originally released on Friday, August 19, 2011, we’ve since had over twenty releases, including two major rewrites with v2 and v3. With Bootstrap 2, we added responsive functionality to the entire framework as an optional stylesheet. Building on that with Bootstrap 3, we rewrote the library once more to make it responsive by default with a mobile first approach.
-
-With Bootstrap 4, we once again rewrote the project to account for two key architectural changes: a migration to Sass and the move to CSS’s flexbox. Our intention is to help in a small way to move the web development community forward by pushing for newer CSS properties, fewer dependencies, and new technologies across more modern browsers.
-
-Our latest release, Bootstrap 5, focuses on improving v4’s codebase with as few major breaking changes as possible. We improved existing features and components, removed support for older browsers, dropped jQuery for regular JavaScript, and embraced more future-friendly technologies like CSS custom properties as part of our tooling.
-      </p>
+      <div className="row text-center">
+        <div className="col">
+          <h3 className="fw-bold">Follow Me</h3>
+          <p>Connect on these platforms:</p>
+          <a
+            href="https://www.instagram.com/soumyadip2912"
+            className="me-3"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-instagram fa-2x social-icon"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100073031764111&mibextid=ZbWKwL"
+            className="me-3"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-facebook fa-2x social-icon"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/soumyadip-maity-183ba3310"
+            className="me-3"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-linkedin fa-2x social-icon"></i>
+          </a>
+          <a
+            href="https://github.com/soumydip"
+            className="me-3"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-github fa-2x social-icon"></i>
+          </a>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
+
+export default About;

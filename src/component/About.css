@@ -1,0 +1,81 @@
+/* Container Styling */
+.about-container {
+  font-family: "Waswam", sans-serif;
+  background-color: #ccc;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+.about-description {
+  font-size: 1.1rem;
+}
+
+/* Features List */
+.features-list {
+  padding: 20px 50px;
+  line-height: 1.6;
+}
+
+.features-list li {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.feature-icon {
+  color: rgb(13, 13, 140);
+  margin-right: 10px;
+}
+
+/* Social Links */
+.social-icon {
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #007bff;
+}
+
+/* Contact and Follow Sections */
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.me-3 {
+  margin-right: 15px;
+}
+.features-list li strong {
+  color: #007bff !important;
+}
+
+/* History style */
+/* VersionHistory.css */
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-title {
+  font-size: 1.5rem; /* Larger font for version title */
+}
+
+.card-text {
+  font-size: 1.1rem; /* Slightly larger font for the release date */
+}
+
+.list-group-item {
+  background-color: #f8f9fa; /* Light background for list items */
+  border: none; /* Remove default border */
+}
